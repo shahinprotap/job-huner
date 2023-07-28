@@ -1,0 +1,118 @@
+.app {
+  background-color: #14161a;
+  color: white;
+  min-height: 100vh;
+}
+
+/* heder brand */
+
+.title {
+  flex: 1;
+  color: gold;
+  font-family: monospace;
+  font-weight: "bold";
+  cursor: pointer;
+}
+
+.bannarcont {
+  height: 400;
+  display: flex;
+  /* flex-direction: column;
+  padding-top: 25;
+  justify-content: space-around; */
+}
+
+.tagline {
+  display: flex;
+  height: 40%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.carousel {
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+
+/* PasswordGenaretor startd */
+* {
+  font-family: Arial;
+}
+
+.container {
+  background-color: #24232b;
+  padding: 24px;
+}
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2a8b8b;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+.copyBtn {
+  height: 30px;
+  font-size: 10px;
+}
+.gnaretorBtn {
+  width: 100%;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.characterlength {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 24px;
+}
+.characterlength span {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+
+.checkbox {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+.checkbox div {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 25px;
+}
+
+/* PasswordGenaretor end */
+
+/* tranding */
+.trendingHeder {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+/* coin page */
+
+.tablColor {
+  color: white;
+}
